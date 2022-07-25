@@ -11,70 +11,60 @@
     <main class="container">
       <section class="main-container">
         <form>
-          <header>
-            <h3>Sign In</h3>
+          <header id="header" class="text-center">
+            <h2>
+              ¡Bienvenido! <br />
+              Crea una cuenta
+            </h2>
           </header>
           <!-- Name input -->
           <div class="form-outline">
-            <label class="form-label" for="form2Example1">Nombre</label>
-            <input type="text" id="form2Example1" class="form-control" />
+            <label class="form-label" for="nombre">Nombre</label>
+            <input type="text" id="nombre" class="form-control" />
           </div>
           <div class="form-outline">
-            <label class="form-label" for="form2Example1">Apellido</label>
-            <input type="text" id="form2Example1" class="form-control" />
+            <label class="form-label" for="apellido">Apellido</label>
+            <input type="text" id="apellido" class="form-control" />
           </div>
 
           <!-- Email input -->
           <div class="form-outline">
-            <label class="form-label" for="form2Example1">Email address</label>
-            <input type="email" id="form2Example1" class="form-control" />
+            <label class="form-label" for="correo">Correo electrónico</label>
+            <input type="email" id="correo" class="form-control" />
           </div>
 
           <!-- Password input -->
           <div class="form-outline">
-            <label class="form-label" for="form2Example2">Password</label>
-            <input type="password" id="form2Example2" class="form-control" />
+            <label class="form-label" for="contrasena">Contraseña</label>
+            <input type="password" id="contrasena" class="form-control" />
           </div>
 
           <div class="form-outline">
-            <label class="form-label" for="form3Example3"
-              >Confirm password</label
+            <label class="form-label" for="confirmacion"
+              >Confirma tu contraseña</label
             >
-            <input type="password" id="form2Example3" class="form-control" />
+            <input type="password" id="confirmacion" class="form-control" />
           </div>
 
-          <!-- 2 column grid layout for inline styling -->
-          <div class="row">
-            <div class="col d-flex justify-content-center">
-              <!-- Checkbox -->
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="form2Example31"
-                  checked
-                />
-                <label class="form-check-label" for="form2Example31">
-                  Remember me
-                </label>
-              </div>
-            </div>
-
-            <div class="col">
-              <!-- Simple link -->
-              <a href="#!">Forgot password?</a>
-            </div>
+          <!-- Checkbox -->
+          <div class="form-outline">
+            <input
+              id="condicion"
+              class="form-control"
+              type="checkbox"
+              value=""
+            />
+            <label id="l-condicion" class="form-label" for="condicion">
+              He leído y acepto los términos y condiciones
+            </label>
           </div>
 
           <!-- Submit button -->
-          <button type="submit" class="btn btn-primary btn-block">
-            Sign in
-          </button>
+          <button type="submit">Regístrate</button>
 
           <!-- Register buttons -->
           <div class="text-center">
-            <p>Not a member? <a href="#!">Register</a></p>
+            <p>¿Ya tienes cuenta? <a href="#!">Inicia sesión</a></p>
           </div>
         </form>
       </section>

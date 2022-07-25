@@ -1,46 +1,65 @@
 html {
-    font-family: Lato;
-    margin: auto;
-    align-items: center;
+  font-family: Lato;
+}
+
+#header {
+  color: #1642b0;
 }
 
 .container {
-    position: absolute;
-    max-width: 400px;
-    top: 10%;
-    left: 10%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
 }
 
 .main-container {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
+  padding: 10px;
+  border-radius: 8px;
   background-color: #f2f2f2;
 }
 
-input[type=text], input[type=email], input[type=password], select {
-    width: 90%;
-    padding: 8px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  button[type=submit] {
-    width: 100%;
-    background-color: #1642b0;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button[type=submit]:hover {
-    background-color: #041d3e;
-  }
-  
+form {
+  margin: 0 auto;
+  width: 75%;
+  padding: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 70%;
+  background-color: #1642b0;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 20px;
+  margin-left: 35px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: medium;
+}
+
+button[type="submit"]:hover {
+  background-color: #041d3e;
+}
+
+#l-condicion {
+  text-transform: uppercase;
+  opacity: 0.5;
+  font-size: smaller;
+}
